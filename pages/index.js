@@ -3,8 +3,8 @@ import { Section } from "../styles/GlobalComponents";
 import Hero from "../components/Hero/Hero";
 import BgAnimate from "../components/BgAnimate/BgAnimate";
 import Projects from "../components/Projects/Projects";
+import Technologies from "../components/Technologies/Technologies";
 // import Acomplishments from '../components/Acomplishments/Acomplishments';
-// import Technologies from '../components/Technologies/Technologies';
 // import Timeline from '../components/TimeLine/TimeLine';
 
 const Home = () => {
@@ -16,7 +16,8 @@ const Home = () => {
       </Section>
 
       <Projects />
-      {/* <Technologies /> */}
+
+      <Technologies />
       {/* <Timeline /> */}
       {/* <Accomplishments /> */}
     </Layout>

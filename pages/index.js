@@ -5,7 +5,7 @@ import BgAnimate from "../components/BgAnimate/BgAnimate";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/Timeline/Timeline";
-// import Acomplishments from '../components/Acomplishments/Acomplishments';
+// import Accomplishments from "../components/Accomplishments/Accomplishments";
 
 const Home = () => {
   return (
@@ -20,6 +20,7 @@ const Home = () => {
       <Technologies />
 
       <Timeline />
+
       {/* <Accomplishments /> */}
     </Layout>
   );

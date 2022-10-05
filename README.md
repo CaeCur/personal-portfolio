@@ -10,4 +10,4 @@ This is a simple Next.js page that serves as my personal portfolio. This project
 
 ## Deployment
 
-You can view the deployment of this project here: [Caelan Curry Portfolio](https://github.com/CaeCur/personal-portfolio)
+You can view the deployment of this project here: [Caelan Curry Portfolio](https://caelan-curry.vercel.app/)

@@ -5,7 +5,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { TiCodeOutline } from "react-icons/ti";
 
 //Styled comps
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from "./HeaderStyles";
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Anchor } from "./HeaderStyles";
 
 const Header = () => {
   return (
@@ -13,12 +13,12 @@ const Header = () => {
       {/* Hero Text */}
       <Div1>
         <Link href="/">
-          <a
+          <Anchor
             style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}
           >
             <TiCodeOutline size="3rem" style={{ marginRight: "5px" }} />
             <Span>Caelan Curry</Span>
-          </a>
+          </Anchor>
         </Link>
       </Div1>
 

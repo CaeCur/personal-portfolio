@@ -21,6 +21,13 @@ export const Span = styled.span`
   font-size: 2.5rem;
 `;
 
+export const Anchor = styled.a`
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;

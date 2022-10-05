@@ -61,9 +61,12 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo omnis corrupti non iure,
-        ducimus et doloribus commodi voluptatem, molestias eum harum quaerat labore facere culpa!
-        Soluta culpa reiciendis voluptatem ad!
+        I am a resourceful developer with a background in medical chemistry studies. My studies
+        developed a logical and research-focused mindset that has helped me grow in the software
+        development industry. I have four years of industry experience and five years of development
+        practice in various technologies. I hope to expand my development education to the point of
+        utilisation within medical chemistry industries, therefore, data science and machine
+        learning are of high interest to me.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -26,7 +26,7 @@ export const TimelineData = [
   { year: 2017, text: "Started work as a scientific consultant" },
   {
     year: 2017,
-    text: "Job role changed to developer due to experience with python during studies",
+    text: "Job role changed to developer due to experience with Python during studies",
   },
   {
     year: 2018,

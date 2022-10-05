@@ -22,9 +22,32 @@ export const projects = [
 ];
 
 export const TimelineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2013, text: "Started my medical chemistry studies at Stellenbosch University" },
+  { year: 2017, text: "Started work as a scientific consultant" },
+  {
+    year: 2017,
+    text: "Job role changed to developer due to experience with python during studies",
+  },
+  {
+    year: 2018,
+    text: "Started studies in PHP and LAMP stack",
+  },
+  {
+    year: 2019,
+    text: "Started studies in JavaScript and MERN stack",
+  },
+  { year: 2020, text: "Started studies in React and Next.js" },
+  { year: 2020, text: "Designed novel audio dataset collection process" },
+  {
+    year: 2021,
+    text: "Started collaborative modernisation of a workflow system using Laravel and Vue",
+  },
+  {
+    year: 2022,
+    text: "Started studies in data science and machine learning",
+  },
+  {
+    year: 2022,
+    text: "Relocated from South Africa to Scotland",
+  },
 ];

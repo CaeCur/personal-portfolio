@@ -19,6 +19,26 @@ export const projects = [
     visit: "https://rockify.vercel.app/",
     id: 1,
   },
+  {
+    title: "Campfire",
+    description:
+      "A Node.js / Express app designed as a campsite review platform. The app uses interesting features such as geo-data and mapping. I aim to convert this into a Next.js app.",
+    image: "/images/campfire.png",
+    tags: ["node.js", "express", "javascript", "mongodb", "bootstrap5"],
+    source: "https://github.com/CaeCur/camp-review",
+    visit: "https://campfire-sigma.vercel.app/",
+    id: 3,
+  },
+  {
+    title: "LightsOut",
+    description:
+      "A pure React app that serves as a web game modelled after the 90's handheld toy of the same name. The aim is to switch all the lights on the board off. However, whenever a light is toggled, the adjacent lights also switch to the opposite state.",
+    image: "/images/lightsout.png",
+    tags: ["react", "javascript", "css"],
+    source: "https://github.com/CaeCur/lights-out",
+    visit: "https://lightsout-sigma.vercel.app/",
+    id: 4,
+  },
 ];
 
 export const TimelineData = [

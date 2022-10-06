@@ -30,7 +30,10 @@ const Footer = () => {
 
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Caelan Curry</Slogan>
+          <Slogan>
+            Caelan Curry - The code for this page can be found on{" "}
+            <a href="https://github.com/CaeCur/personal-portfolio">GitHub</a>
+          </Slogan>
         </CompanyContainer>
 
         <SocialContainer>

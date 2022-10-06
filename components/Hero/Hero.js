@@ -13,7 +13,9 @@ const Hero = () => {
           I enjoy creating full-stack projects which use React, Next.js and many of the technologies
           surrounding them.
         </SectionText>
-        <Button onClick={() => (window.location = "https://github.com/CaeCur")}>Learn More</Button>
+        <Button onClick={() => window.open("https://github.com/CaeCur", "_blank")}>
+          Learn More
+        </Button>
       </LeftSection>
     </Section>
   );

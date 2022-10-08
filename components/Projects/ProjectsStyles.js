@@ -28,6 +28,7 @@ export const BlogCard = styled.div`
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-bottom: 2rem;
   }
 `;
 export const TitleContent = styled.div`
@@ -70,7 +71,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 1rem;
   }
 `;
 
@@ -96,6 +97,7 @@ export const ExternalLinks = styled.a`
 
 export const TagList = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem;
 `;

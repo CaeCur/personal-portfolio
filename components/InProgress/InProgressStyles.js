@@ -1,17 +1,10 @@
 import styled from "styled-components";
 
-export const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-`;
-
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 3rem;
-  place-items: center;
+  align-items: stretch;
   column-gap: 2rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -23,6 +16,7 @@ export const GridContainer = styled.section`
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
+  padding: 1rem;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;

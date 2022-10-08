@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Video hosting web app designed as a clone of TikTok. Utilises Google Authentication and includes search functionality.",
     image: "/images/bakka.png",
-    tags: ["next.js", "react", "typescript", "sanity", "tailwindcss"],
+    tags: ["next.js", "typescript", "sanity", "tailwindcss"],
     source: "https://github.com/CaeCur/bakka",
     visit: "https://bakka.vercel.app/",
     id: 0,
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "A utility of the Spotify API in a web app designed to control Spotify devices from a mock web UI.",
     image: "/images/rockify.png",
-    tags: ["next.js", "react", "spotifyapi", "recoil", "tailwindcss"],
+    tags: ["next.js", "spotifyapi", "recoil", "tailwindcss"],
     source: "https://github.com/CaeCur/rockify-next",
     visit: "https://rockify.vercel.app/",
     id: 1,
@@ -27,7 +27,7 @@ export const projects = [
     tags: ["node.js", "express", "javascript", "mongodb", "bootstrap5"],
     source: "https://github.com/CaeCur/camp-review",
     visit: "https://campfire-sigma.vercel.app/",
-    id: 3,
+    id: 2,
   },
   {
     title: "LightsOut",
@@ -37,7 +37,26 @@ export const projects = [
     tags: ["react", "javascript", "css"],
     source: "https://github.com/CaeCur/lights-out",
     visit: "https://lightsout-sigma.vercel.app/",
-    id: 4,
+    id: 3,
+  },
+];
+
+export const inProgress = [
+  {
+    title: "Campfire Rebuild",
+    description:
+      "I aim to rebuild my original Campfire app using the T3 stack. While my original Campfire app is still very serviceable, it is built as a vanilla JS / Node application. I find it exciting to rebuild the site using the modern technologies of the T3 stack.",
+    tags: ["Next.js", "TypeScript", "Next-Auth", "tRPC", "Prisma", "MongoDB", "TailwindCSS"],
+    source: "https://github.com/CaeCur/issue-tracker-next",
+    id: 0,
+  },
+  {
+    title: "Issue Submission Platform",
+    description:
+      "Team based issue / bug submission platform. An authenticated user will be able to submit and view issues. Issues will have various parameters including user assignment, priority and progress tracking. The app is fairly adaptable to the contexts of helpdesks or admin consoles.",
+    tags: ["Next.js", "MongoDB", "MUI5"],
+    source: "https://github.com/CaeCur/issue-tracker-next",
+    id: 1,
   },
 ];
 

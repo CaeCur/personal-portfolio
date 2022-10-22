@@ -1,6 +1,6 @@
-import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents"
+import Button from "../../styles/GlobalComponents/Button"
+import { LeftSection } from "./HeroStyles"
 
 const Hero = () => {
   return (
@@ -13,12 +13,12 @@ const Hero = () => {
           I enjoy creating full-stack projects which use React, Next.js and many of the technologies
           surrounding them.
         </SectionText>
-        <Button onClick={() => window.open("https://github.com/CaeCur", "_blank")}>
-          Learn More
+        <Button onClick={() => window.open("/docs/caelan_curry_cv.pdf", "_blank")}>
+          Download CV
         </Button>
       </LeftSection>
     </Section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

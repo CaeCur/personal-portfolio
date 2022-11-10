@@ -1,6 +1,6 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from "../Header/HeaderStyles"
 import {
   CompanyContainer,
   FooterWrapper,
@@ -11,7 +11,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles";
+} from "./FooterStyles"
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+2782-968-4159">+278 2968 4159</LinkItem>
+          <LinkItem href="tel:+447442767076">+447442767076</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
@@ -49,7 +49,7 @@ const Footer = () => {
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
